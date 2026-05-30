@@ -19,6 +19,7 @@ urlpatterns = [
     # http://127.0.0.1:8000/post_search/?ordering=create_at
 
     path("comments/", views.CommentListView.as_view()),
+    path("posts/comments/<int:pk>/", views.CommentListView.as_view()),
     path("comments/<int:pk>/", views.CommentDetailView.as_view()),
 
     path("like/<int:pk>/", views.LikeView.as_view()),
