@@ -1,0 +1,22 @@
+# Environment
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+db.sqlite3
+
+# Media files
+media/*
+!media/.gitkeep
+
+# IDE
+.vscode/
+.idea/
